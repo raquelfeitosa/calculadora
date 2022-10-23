@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha calculadora</title>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="card card-login mx auto mt-5 col-6">
+            <div class="card card-heard text-center">Minha calculadora
+                <div class="card-body">
+                    <form action="calculadora.php">
+                        <div class="form-group">
+                            <select name="opcao" class="form-control">
+                                <option selected>Escolha a operação.</option>
+                                <option value="somar">Somar</option>
+                                <option value="dividir">Dividir</option>
+                                <option value="multiplicar">Multiplicar</option>
+                                <option value="subtrair">Subtrair</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Digite um número</label>
+                            <input type="number" class="form-control" name="num1" placeholder="">
+                            <label for="">Digite um número</label>
+                            <input type="number" class="form-control" name="num2" placeholder="">
+                        </div>
+                        <button class="btn btn-success btn-block">Calcular</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
